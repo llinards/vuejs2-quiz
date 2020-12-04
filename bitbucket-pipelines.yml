@@ -7,6 +7,10 @@ image: atlassian/default-image:2
 pipelines:
   default:
     - parallel:
+    - step:
+          name: 'Install dependencies'
+          script:
+            - npm install
       - step:
           name: 'Build and Test'
           script:
