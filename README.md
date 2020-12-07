@@ -11,4 +11,4 @@ npm run serve
 ```
 
 ### Public URL
-https://stupefied-noyce-b57ec1.netlify.app/
+https://focused-wozniak-61ef1e.netlify.app/
