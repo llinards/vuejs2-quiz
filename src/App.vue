@@ -2,8 +2,8 @@
   <div id="app">
     <Header :numCorrect="numCorrect" :numTotal="numTotal" />
     <b-container class="bv-example-row">
-      <b-row class="mt-5">
-        <b-col sm="6" offset-sm="3">
+      <b-row class="mt-5 d-flex justify-content-center">
+        <b-col sm="8">
           <QuestionBox
             v-if="questions.length"
             :currentQuestion="questions[index]"
